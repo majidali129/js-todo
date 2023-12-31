@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="standard">
+    <header>
+      <div class="theme__toggler__wrapper">
+        <span class="toggler theme__toggler--standard" id="standard-theme"></span>
+        <span class="toggler theme__toggler--light" id="light-theme"></span>
+        <span class="toggler theme__toggler--dark" id="dark-theme"></span>
+      </div>
+    </header>
+    <main>
+      <article>
+        <h1 class="title" id="title">Just do it.</h1>
+        <div class="form">
+          <form action="">
+            <div class="form__field">
+              <input
+                type="text"
+                name="todo"
+                class="standard-input"
+                id="todo_field"
+                placeholder="Add a task"
+              />
+              <button
+                type="submit"
+                id="submit_btn"
+                class="submit_btn standard-button"
+              >
+                I Got This
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="details">
+          <div class="times">
+            <span>12/29/2023,</span>
+            <span>10:33:02 PM</span>
+          </div>
+          <div class="tasks">
+            <ul class="task__list" id="task__list">
+              <!-- <li class="task__list--item standard-todo">
+                <p class="task__description">Task One</p>
+                <div class="task__actions">
+                  <button class="check__btn" id="check__btn">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      class="check-icon"
+                      viewBox="0 0 26 26"
+                    >
+                      <path
+                        d="M 22.566406 4.730469 L 20.773438 3.511719 C 20.277344 3.175781 19.597656 3.304688 19.265625 3.796875 L 10.476563 16.757813 L 6.4375 12.71875 C 6.015625 12.296875 5.328125 12.296875 4.90625 12.71875 L 3.371094 14.253906 C 2.949219 14.675781 2.949219 15.363281 3.371094 15.789063 L 9.582031 22 C 9.929688 22.347656 10.476563 22.613281 10.96875 22.613281 C 11.460938 22.613281 11.957031 22.304688 12.277344 21.839844 L 22.855469 6.234375 C 23.191406 5.742188 23.0625 5.066406 22.566406 4.730469 Z"
+                      ></path>
+                    </svg>
+                  </button>
+                  <button class="delete__btn" id="delete__btn">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      class="delete-icon"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M 10 2 L 9 3 L 3 3 L 3 5 L 4.109375 5 L 5.8925781 20.255859 L 5.8925781 20.263672 C 6.023602 21.250335 6.8803207 22 7.875 22 L 16.123047 22 C 17.117726 22 17.974445 21.250322 18.105469 20.263672 L 18.107422 20.255859 L 19.890625 5 L 21 5 L 21 3 L 15 3 L 14 2 L 10 2 z M 6.125 5 L 17.875 5 L 16.123047 20 L 7.875 20 L 6.125 5 z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer></footer>
+
+    <script src="/main.js"></script>
+
+  </body>
+</html>
